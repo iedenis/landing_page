@@ -692,7 +692,7 @@
     font-family: 'Heebo';font-size: 24px;
     font-weight: bold;
     text-align: center; 
-} 
+}
 #NavBar a{
     position: relative;
     text-decoration: none;
@@ -703,6 +703,12 @@
 #NavBar a:hover{
     color: orange;
 }
+
+#nav_items{
+    position: relative;
+   padding-top: 40px; 
+}
+
 #nav_background{
     display: block;
     width: 100%;
