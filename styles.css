@@ -3,9 +3,20 @@
 
 }
 
-html,
+html {
+    margin: 0;
+}
+
+
 body {
     margin: 0;
+    padding: 0;
+    /*min-height: 100%;
+     position: relative;
+     */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header,
@@ -34,8 +45,6 @@ body {
 }
 
 
-
-
 section {
     display: block;
     background: #fff;
@@ -44,6 +53,8 @@ section {
     margin-bottom: 0;
     box-shadow: 2px 0 4px 1px rgba(0, 0, 0, 0.03);
 }
+
+
 
 body > header,
     {
@@ -55,13 +66,20 @@ body > header,
 }
 
 .content {
+    height: 766px;
+    display: block;
+    top: 113px;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 0;
+    box-shadow: 2px 0 4px 1px rgba(0, 0, 0, 0.03);
     flex: 1 0 auto;
-    /* flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;*/
 }
 
+
 .box {
+    position: relative;
     background-image: url("images/rectangle1.png");
     /*background-color: black;*/
     background-repeat: no-repeat;
@@ -70,6 +88,7 @@ body > header,
     /* margin: 2px;*/
     width: 100%;
     height: 766px;
+    z-index: 1;
 }
 
 .box-custome {
@@ -93,6 +112,7 @@ body > header,
 #layer1 {
     position: relative;
     z-index: 1;
+    margin: auto;
 
 }
 
@@ -148,6 +168,25 @@ body > header,
     padding-top: 40px;
 }
 
+#section2 {
+    height: auto;
+    flex: 1 0 auto;
+    margin-top: -150px;
+    /* flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;*/
+}
+
+#Layer7 {
+
+    /*left: -3px;*/
+    /*top: 598px;*/
+    position: relative;
+}
+
+
+
+
 
 #footer {
     /* position: absolute; */
@@ -164,23 +203,6 @@ body > header,
 
 
 
-
-
-
-
-
-
-body {
-    margin: 0;
-    padding: 0;
-    /*min-height: 100%;
-     position: relative;
-     */
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
 section,
 footer,
 header,
@@ -194,30 +216,6 @@ html {
     height: 100%;
 }
 
-/*
-#wrapper {
-    left: 0px;
-    top: 0px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    min-height: 100%;
-    overflow: scroll;
-    z-index: 0;
-}
-*/
-
-section .content {
-    top: 113px;
-    width: 100%;
-    background: #fff;
-    padding: 0 1rem 1rem 1rem;
-    margin: 0 auto;
-    margin-bottom: 0;
-    box-shadow: 2px 0 4px 1px rgba(0, 0, 0, 0.03);
-    flex: 1 0 auto;
-}
 
 
 section .main {
@@ -225,6 +223,10 @@ section .main {
     flex: 1 0 auto;
 }
 
+#layer1 .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 #Layer4 {
     left: -273px;
@@ -729,14 +731,6 @@ section .main {
     z-index: 55;
 }
 
-#Layer7 {
-    left: -3px;
-    top: 598px;
-    position: absolute;
-    width: 100%;
-    height: 904px;
-    z-index: 56;
-}
 
 #Rectangle4 {
     left: -4px;
