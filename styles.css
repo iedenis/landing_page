@@ -1,6 +1,5 @@
 *:not(i) {
     font-family: 'Heebo';
-
 }
 
 html {
@@ -191,6 +190,7 @@ body > header,
 #footer {
     /* position: absolute; */
     margin-top: 0px;
+    padding-top: 10px;
     width: 100%;
     height: 113px;
     z-index: 200;
@@ -198,8 +198,21 @@ body > header,
     color: white;
 }
 
+#footer p {
+    margin-left: 30%;
+    float: left;
+    font-size: 27px;
+    font- font-weight: bold;
+    color: orange;
+}
 
-
+#Layer16 {
+    margin-right: 30%;
+    position: relative;
+    width: 134px;
+    height: 40px;
+    float: right;
+}
 
 
 
@@ -268,16 +281,6 @@ section .main {
     z-index: 4;
 }
 
-#Layer16 {
-    /*
-     left: 1048px;
-     top: 3928px;
-     */
-    /*position: relative;*/
-    width: 134px;
-    height: 40px;
-    z-index: 5;
-}
 
 #layer_6 {
     left: 663px;
