@@ -225,13 +225,6 @@ html {
     height: 100%;
 }
 
-
-
-section .main {
-    top: 113px;
-    flex: 1 0 auto;
-}
-
 #layer1 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -559,7 +552,7 @@ section .main {
     z-index: 36;
 }
 
-#Rectangle6 {
+/*#Rectangle6 {
     left: 0px;
     top: 1499px;
     position: absolute;
@@ -567,15 +560,34 @@ section .main {
     height: 803px;
     z-index: 37;
 }
+*/
 
-#Layer8 {
-    left: -19px;
-    top: 1501px;
-    position: absolute;
-    width: 849px;
-    height: 826px;
-    z-index: 38;
+#section3 {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: orange;
 }
+
+#section3 > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Heebo';
+}
+
+#section3 > .about_book {
+    padding-right: 100;
+    float: right;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: -724px;
+}
+
+#Layer8 {}
+
+
 
 #layer_39 {
     left: 754px;
