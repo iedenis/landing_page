@@ -588,7 +588,6 @@ html {
 #section5 > form {
     color: black;
     float: right;
-    margin-right: 200px;
     width: 400px;
     position: absolute;
     top: 20%;
@@ -598,6 +597,26 @@ html {
 
 #section5 > form .label {
     float: right;
+}
+
+#section5 > p {
+    float: right;
+    width: 450px;
+    margin-left: 47%;
+    margin-bottom: 0;
+    color: black;
+    position: absolute;
+    font-weight: 600;
+    font-size: 30px;
+    top: 70px;
+    text-align: right;
+}
+
+
+
+*::-webkit-input-placeholder {
+    color: black;
+    font-weight: 300;
 }
 
 #Layer8 {}
