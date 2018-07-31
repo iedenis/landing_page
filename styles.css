@@ -390,15 +390,6 @@ html {
     z-index: 18;
 }
 
-#Layer9 {
-    left: -53px;
-    top: 2299px;
-    position: absolute;
-    width: 1678px;
-    height: 951px;
-    z-index: 19;
-}
-
 #Layer10 {
     left: 1px;
     top: 0px;
@@ -583,6 +574,30 @@ html {
     font-size: 25px;
     font-weight: 900;
     margin-top: -724px;
+}
+
+#section5 {
+    position: relative;
+}
+
+#section5 {
+    background: url('images/Layer1.png');
+    background-repeat: no-repeat;
+}
+
+#section5 > form {
+    color: black;
+    float: right;
+    margin-right: 200px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    margin-left: 50%;
+    font-size: 30px;
+}
+
+#section5 > form .label {
+    float: right;
 }
 
 #Layer8 {}
