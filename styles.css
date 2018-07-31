@@ -171,7 +171,7 @@ body > header,
 #section2 {
     height: auto;
     flex: 1 0 auto;
-    margin-top: -150px;
+    margin-top: -180px;
 }
 
 #Layer7 {
@@ -195,6 +195,7 @@ body > header,
 }
 
 #footer p {
+    padding-top: 20px;
     margin-left: 30%;
     float: left;
     font-size: 27px;
@@ -203,6 +204,7 @@ body > header,
 }
 
 #Layer16 {
+    padding-top: 20px;
     margin-right: 30%;
     position: relative;
     width: 134px;
